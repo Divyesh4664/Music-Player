@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(196, 235, 196);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(247, 247, 239);
+    border-radius: 25px;
+}
+nav ul li{
+    padding: 0px 12px;
+}
+.logo img{
+    width: 35px;
+    padding: 0px 8px;
+    border-radius: 25px;
+}
+.logo img:hover{
+    background-color: rgb(187, 243, 187);
+    border-radius: 30px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.button:hover{
+    color: rgb(0, 255, 0);
+}
+.container{
+    height: 540px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(249, 255, 249);
+    border-radius: 20px;
+    border: 3px solid green;
+    box-shadow: 0 4px 0 #7cfc78 , 0 5px 5px 1px rgba(0,0,0,0.4);
+    display: flex;
+    width: 1200px;
+    margin: 5px 5px 7px 150px;
+    padding: 8px;
+    background-image: url('musicbg.jpg');
+}
+.container:hover{
+    box-shadow: 0 4px 0 #7cfc78 , 0 5px 5px 1px rgba(0,0,0,0.4);
+    transition: all 0.2s ease-in-out;
+}
+.bottom{
+  position: sticky;
+  margin-top: 18px;
+  bottom: 0;
+  height: 130px;
+  border: 3px solid #8AC007;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.bottom:hover{
+    background-color: rgb(53, 61, 53);
+    box-shadow: 0 4px 0 #7cfc78 , 0 5px 5px 1px rgba(0,0,0,0.4);
+    transition: all 0.2s ease-in-out;
+}
+#icons{
+    margin-top: 14px;
+    cursor: pointer;
+}
+i{
+    margin: 2px 3px 2px 3px;
+    width: 20px;
+}
+i:hover{
+    color: darkseagreen;
+}
+#volume{
+    width: 40vw;
+    height: 2px;
+    cursor: pointer;
+}
+
+.s{
+    margin-top: 5px;
+}
+.songs{
+    width: 480px;
+    height: 40px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+}
+.songs:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.songs img{
+    width: 40px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    border-radius: 25px;
+}
+.time{
+    margin: 0 10px;
+}
+.time i{
+    cursor: pointer;
+}
+.gif {
+    opacity: 0;
+    transition: opacity 0.81s ease-in;
+}
